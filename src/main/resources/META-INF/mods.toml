@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+issueTrackerURL=""
+
+[[mods]]
+modId="classifier"
+version="0.1.0-m2"
+displayName="Classifier"
+authors="TidengYogvin"
+description='''
+A fully automatic mob-based item sorting mod. Adds the "Classifier" creature.
+'''
+
+[[dependencies.classifier]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.classifier]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

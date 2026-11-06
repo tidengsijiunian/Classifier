@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# 运行目录（runClient / runServer 生成）
+run/
+runs/
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 备份文件
+*.bak
+*.orig
